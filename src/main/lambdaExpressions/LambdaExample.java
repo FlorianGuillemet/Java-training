@@ -9,10 +9,10 @@ public class LambdaExample {
 
     /*
     The lambda expression is an another way to use the anonymous classes.
-    It use a simplify syntax, more smart
+    It use a simplify syntax, more smart, conciseness
 
-    The lambda expression is the definition of a interface method (functionnal interface that only have one method to define)
-    To use it, first we must choose or written the appropriate interface: with or without params, with or without return, and the type of params and return variable.
+    The lambda expression is the definition of a interface method (functional interface that only have one method to define)
+    To use it, first we must choose or written the appropriate interface: with or without params, with or without return, and the type of params and return.
     Then we define what this method have to do.
     Finally, we call this method (with the params) to execute the function.
 

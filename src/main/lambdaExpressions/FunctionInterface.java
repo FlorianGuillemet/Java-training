@@ -39,7 +39,7 @@ public class FunctionInterface {
         System.out.println(lastName);
 
 
-        System.out.println("----------Function that return the firstName by taking an employee------------");
+        System.out.println("----------Function: One argument and return One. Here we return the firstName by taking an employee------------");
         Function<Employee, String> getFirstName = (Employee employee) -> {
             return employee.getName().substring(0, employee.getName().indexOf(' '));
         };
